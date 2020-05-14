@@ -35,10 +35,10 @@
       }
     }
 
-    &__button.play::before {
+    button.play::before {
       content: "\f144";
     }
-    &__button.pause::before {
+    button.pause::before {
       content: "\f28b";
     }
   }
@@ -55,7 +55,7 @@
   width: 100%;
   flex-wrap: wrap;
   background-color: rgba(0, 0, 0, 0.7);
-  transform: translateY(100%) translateY(-5px);
+  transform: translateY(100%);
   transition: 0.2s;
 
   &__progressbar {
